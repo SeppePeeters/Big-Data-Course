@@ -14,6 +14,6 @@ Nu gebruik ik deze en dit zijn de resultaten :
 
 ![Screenshot](LangeVersie.png)
 
-Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid.
+Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren.
 
 
