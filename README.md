@@ -19,7 +19,7 @@ Daarna worden de klassen ingelezen, dus per voertuig de klasnamen en het merk.
 
 Daarna importeren we de Keras libraries verder
 
-![Screenshot](Importeren2.png)
+![Screenshot](importeren2.png)
 
 Daarna zetten we de parameters voor het model klaar, alsook word getest of ik in de juiste directory zit door de images die geteld worden samen met de klassen.
 
