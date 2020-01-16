@@ -38,15 +38,17 @@ Hiermee begint het model met trainen.
 Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
 ![Screenshot](BigData.png)
 
-![Screenshot](Error1.png)
+
 
 
 Na wat verder gezocht te hebben was er al iemand die deze onderverdeeld had : 
 https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder. 
 Nu gebruik ik deze en dit zijn de resultaten :
 
-![Screenshot](LangeVersie.png)
+![Screenshot](Error1.png)
+
+
 
 Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren. De techniek heet transfer learning, deze techniek is beter dan de techniek die ik nu gebruik als het om ongeveer dezelfde taken zouden zijn dus niet echt specifiek maar eerder generiek, door de mindere lagen hebben we wel meer kans op overfitting dit betekent dat er te weinig lagen gekent zijn om het juiste resultaat te kunnen geven.
 
-
+![Screenshot](LangeVersie.png)
