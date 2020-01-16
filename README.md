@@ -1,9 +1,33 @@
 # Big-Data-Course
 
+# Graphs
+
+In the first graph you can see the Linear Regression between Salary and experience. It's obvious that they are both related to each other, the more you already have worked the more salary you get.
+
+![Screenshot](Regression.png)
+
+
+
+
+
 # Car recognizing
 
 Als autohandelaar zijnde als student-ondernemer ben ik op het idee gekomen om een autoherkenningsprogramma te schrijven. Ik ben begonnen met een dataset te maken. Ik had al zelf veel bruikbare data aan de hand van al verkochte auto's, ik kwam uiteraard nog vele foto's te kort dus ben ik begonnen met foto's van Flickr.com en Unsplash.com. Na vele downloads verder en wat gecodeerd te hebben besloot ik dat deze dataset die ik zelf gemaakt had onvoldoende was om hiermee verder te gaan. Na wat google verder kwam ik op deze dataset terecht : https://ai.stanford.edu/~jkrause/cars/car_dataset.htm.
 ![Screenshot](TotalImages.png)
+
+Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
+
+![Screenshot](Error1.png)
+
+Na wat verder gezocht te hebben was er al iemand die deze onderverdeeld had : 
+https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder. 
+Nu gebruik ik deze en dit zijn de resultaten :
+
+![Screenshot](BigData.png)
+
+
+
+
 
 Het programma begint met alle libraries te importeren die ik nodig heb.
 
@@ -35,18 +59,15 @@ Hiermee begint het model met trainen.
 
 
 
-Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
-![Screenshot](BigData.png)
-
-![Screenshot](Error1.png)
 
 
-Na wat verder gezocht te hebben was er al iemand die deze onderverdeeld had : 
-https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder. 
-Nu gebruik ik deze en dit zijn de resultaten :
+
+
+
+
+
+
+
+Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren. De techniek heet transfer learning, deze techniek is beter dan de techniek die ik nu gebruik als het om ongeveer dezelfde taken zouden zijn dus niet echt specifiek maar eerder generiek, door de mindere lagen hebben we wel meer kans op overfitting dit betekent dat er te weinig lagen gekent zijn om het juiste resultaat te kunnen geven.
 
 ![Screenshot](LangeVersie.png)
-
-Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren.
-
-
