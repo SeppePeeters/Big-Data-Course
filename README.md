@@ -58,6 +58,19 @@ Hiermee begint het model met trainen.
 
 ![Screenshot](trainModel.png)
 
+Dit zijn de resultaten van de training. Zoals je kan zien zijn de resultaten zeer laag omdat ik een lage batch_size heb gekozen. Hoe groter de batch size des te meer accuracy maar hoe langer de training ook duurt.
+
+![Screenshot](runModel.png)
+
+Nadat het model is gerund laat ik de resultaten plotten in een grafiek, dit is het resultaat, zoals je kan zien is er wel enige samenhang. Zoals je kan zien is de accuracy wisselvallend en is hier geen vast percentage op te stellen, dit verwisselt nogal.
+Je kan zien dat hij meer verlies heeft bij de training dan bij validation.
+
+![Screenshot](grafieken.png)
+
+
+Dit is het eindresultaat, zoals je kan zien zijn ze niet zoals verwacht. Het is zo goed als altijd fout. Hij neemt altijd willekeurige foto's terwijl ik hem run, de foutmelding is een probleem dat er spijtig genoeg niet genoeg RAM beschikbaar is.
+
+![Screenshot](resultaat.png)
 
 
 
@@ -67,8 +80,9 @@ Hiermee begint het model met trainen.
 
 
 
+# Extra
 
 
-Heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren. De techniek heet transfer learning, deze techniek is beter dan de techniek die ik nu gebruik als het om ongeveer dezelfde taken zouden zijn dus niet echt specifiek maar eerder generiek, door de mindere lagen hebben we wel meer kans op overfitting dit betekent dat er te weinig lagen gekent zijn om het juiste resultaat te kunnen geven.
+Dit was een test, heb deze maar even laten runnen omdat deze te groot en teveel lagen gebruikte. Dit betekent uiteraard wel meer nauwkeurigheid, dit is ook een andere en een iets meer geavanceerdere techniek tegenover diegene die ik nu op het einde gebruik. Dit verschil zit puur in de code van het model te creëren. De techniek heet transfer learning, deze techniek is beter dan de techniek die ik nu gebruik als het om ongeveer dezelfde taken zouden zijn dus niet echt specifiek maar eerder generiek, door de mindere lagen hebben we wel meer kans op overfitting dit betekent dat er te weinig lagen gekent zijn om het juiste resultaat te kunnen geven.
 
 ![Screenshot](LangeVersie.png)
