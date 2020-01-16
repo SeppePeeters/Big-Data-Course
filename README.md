@@ -25,6 +25,15 @@ Daarna zetten we de parameters voor het model klaar, alsook word getest of ik in
 
 ![Screenshot](Parameters.png)
 
+Na dat de parameters zijn gedeclareerd maken we de methode om het model te maken.
+
+![Screenshot](buildModel.png)
+
+Hiermee begint het model met trainen.
+
+![Screenshot](trainModel.png)
+
+
 
 Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
 ![Screenshot](BigData.png)
