@@ -6,8 +6,9 @@ In the first graph you can see the Linear Regression between Salary and experien
 
 ![Screenshot](Regression.png)
 
+In the second graph I will show you the correlation for the topic suicide, I made an heatmap to see the correlation between the ages and that GDP or the HDI makes a difference.
 
-
+![Screenshot](Correlation.png)
 
 
 # Car recognizing
