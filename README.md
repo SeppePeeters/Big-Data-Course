@@ -17,6 +17,14 @@ Daarna worden de klassen ingelezen, dus per voertuig de klasnamen en het merk.
 
 ![Screenshot](classnamen.png)
 
+Daarna importeren we de Keras libraries verder
+
+![Screenshot](Importeren2.png)
+
+Daarna zetten we de parameters voor het model klaar, alsook word getest of ik in de juiste directory zit door de images die geteld worden samen met de klassen.
+
+![Screenshot](Parameters.png)
+
 
 Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
 ![Screenshot](BigData.png)
