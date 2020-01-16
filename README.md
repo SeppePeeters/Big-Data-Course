@@ -13,6 +13,9 @@ Daarna controleer ik of hij de juiste directory wel vind.
 
 ![Screenshot](Fotodirectory.png)
 
+Daarna worden de klassen ingelezen, dus per voertuig de klasnamen en het merk.
+
+![Screenshot](classnamen.png)
 
 
 Dit is een ruwe dataset met pure foto's, na deze gebruikt te hebben kwam ik uiteraard op de fout dat deze nog moest onderverdeeld worden in de klassen en categorieën.
