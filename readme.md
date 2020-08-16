@@ -52,4 +52,6 @@ Picture from a custom number plate
 ![Car](fotos/Jaguar.jpg)
 
 
+When there is no number plate he says nothing and also doesn't leave a marking on the photo
 
+![Car](fotos/Bugatti.jpg)
