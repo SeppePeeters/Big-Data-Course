@@ -19,6 +19,8 @@ Then I reversed it, Less epochs and bigger Batch sizes means better results. :
 These are the results : 
 
 These are the graphs and statistics of the results from the model : 
+![Kaggle](fotos/EpochPy.png)
+
 ![Kaggle](fotos/ResultPy.png)
 
 Prediction of this beautiful Volkswagen Beetle : 
