@@ -126,7 +126,7 @@ Here are some other examples where you can see that the number plate is good rea
 
 Now I'm going to combine my 3 projects. First I'm gonna let the car classifier predict what kind of car it is : 
 
-![picture](fotos/Beetle.jpg)
+![picture](fotos/beetle.jpg)
 
 He predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict if he has a number plate or not and where it is on the picture : 
 
