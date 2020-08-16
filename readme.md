@@ -58,10 +58,21 @@ When there is no number plate he says nothing and also doesn't leave a marking o
 
 # Object detector
 
+
+1. Videos
 As I said earlier we recently installed a new camera system. There is already motion detection in the camera's built in. I would maybe like to go a step further and install some other detection in. Like detection and counting of cars so I can see what is where going on. Counting cars on the parking lot or count who many people are in. But first before I start or maybe try to do that I'm gonna start with the detection of the camera's. My first example is footage of the camera who hangs outside to see a couple of my own cars who are parked up front. As you can see it's a small video of 10 seconds where you can see that he detects my own cars that are parked and the 2 cars that are driving by
+
 
 Before:
 https://youtu.be/iLS4YvHryQA
 
 After : 
 https://www.youtube.com/watch?v=k4OpxJY5OCw&feature=youtu.be
+
+2. Images 
+
+With object detection I used Yolo again because I already had some experience with it. I also found a tutorial online who would help me with it. As you can see the pre trained model even detects animals, cars humans. It's perfect for the security reason I've picked it. Here are some results : 
+
+![Car](fotos/foto.jpg)
+![Car](fotos/Huis1.jpg)
+![Car](fotos/lambo.jpg)
