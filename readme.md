@@ -122,3 +122,16 @@ Here are some other examples where you can see that the number plate is good rea
 
 ![picture](fotos/Jaguar-det.jpg)
 
+
+
+Now I'm going to combine my 3 projects. First I'm gonna let the car classifier predict what kind of car it is : 
+
+![picture](fotos/Beetle.jpg)
+
+He predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict if he has a number plate or not and where it is on the picture : 
+
+![picture](fotos/beetle_yolo_out_py.jpg)
+
+He predicted it right, he has a number plate. After the prediction of the number plate now we are gonna check object itself. Maybe there are even other objects in the picture like we have seen before on the other pictures that I used : 
+
+![picture](fotos/beetle_yolo_out_py-det.jpg)
