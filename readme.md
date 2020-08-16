@@ -28,3 +28,6 @@ Prediction of this sports car :
 ![Kaggle](fotos/ResultFerrari.png)
 
 6. The Beetle is 100% right. The Ferrari is not fully wrong. The Ferrari on the photo that I took by myself and used is the newer Model. A Ferrari 488.
+Now I picked a tricky car. A car that is actually the same car as another one but just with a different badge. It's a car that I sold recently. An Abarth 595 who shares it's chassis with the normal Fiat 500. Only difference are the badges and another engine. As you can see I took the picture from the side to trick the model but he has it semi-right because he took the fiat.
+
+![Kaggle](fotos/ResultAbarth.png)
