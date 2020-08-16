@@ -15,7 +15,7 @@ https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder
 Then I reversed it, Less epochs and bigger Batch sizes means better results. : 
 ![Kaggle](fotos/Result2.png)
 
-5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. 
+5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. Now with the help of my GPU the epochs only take a couple of minutes instead of almost an hour.
 These are the results : 
 
 These are the graphs and statistics of the results from the model : 
