@@ -118,7 +118,7 @@ After some testing of the number plate detector the biggest reason why he couldn
 Here are some other examples where you can see that the number plate is good readable and easy to predict : 
 
 
-![picture](fotos/Opel-detect.jpg)
+![picture](fotos/Opel-det.jpg)
 
-![picture](fotos/Jaguar-detect.jpg)
+![picture](fotos/Jaguar-det.jpg)
 
