@@ -76,3 +76,8 @@ With object detection I used Yolo again because I already had some experience wi
 ![Car](fotos/foto.jpg)
 ![Car](fotos/Huis1.jpg)
 ![Car](fotos/lambo.jpg)
+
+
+This is a picture the camera took when he tracked some motion. As you can see it tracks even more than i thought : 
+
+![picture](fotos/halbuiten2-det.jpg)
