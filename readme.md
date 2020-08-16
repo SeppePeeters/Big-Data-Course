@@ -15,10 +15,12 @@ https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder
 Then I reversed it, Less epochs and bigger Batch sizes means better results. : 
 ![Kaggle](fotos/Result2.png)
 
-5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. 
+5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. Now with the help of my GPU the epochs only take a couple of minutes instead of almost an hour.
 These are the results : 
 
 These are the graphs and statistics of the results from the model : 
+![Kaggle](fotos/EpochPy.png)
+
 ![Kaggle](fotos/ResultPy.png)
 
 Prediction of this beautiful Volkswagen Beetle : 
@@ -28,3 +30,6 @@ Prediction of this sports car :
 ![Kaggle](fotos/ResultFerrari.png)
 
 6. The Beetle is 100% right. The Ferrari is not fully wrong. The Ferrari on the photo that I took by myself and used is the newer Model. A Ferrari 488.
+Now I picked a tricky car. A car that is actually the same car as another one but just with a different badge. It's a car that I sold recently. An Abarth 595 who shares it's chassis with the normal Fiat 500. Only difference are the badges and another engine. As you can see I took the picture from the side to trick the model but he has it semi-right because he took the fiat.
+
+![Kaggle](fotos/ResultAbarth.png)
