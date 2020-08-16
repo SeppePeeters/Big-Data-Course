@@ -81,3 +81,29 @@ With object detection I used Yolo again because I already had some experience wi
 This is a picture the camera took when he tracked some motion. As you can see it tracks even more than i thought : 
 
 ![picture](fotos/halbuiten2-det.jpg)
+
+# Combining the projects
+
+I wanted to try if it would be possible to combine the projects with eachother and let the computer decide everything. I tried it first with my own footage from the camera's but they were to far away or the quality wasn't good enough. The problem with the object classifier is that it makes the quality worser from the picture : 
+
+Original Photo : 
+
+![picture](fotos/halbuiten2.jpg)
+
+Detected Photo : 
+
+![picture](fotos/halbuiten2-det.jpg)
+
+Now trying the number plate :
+
+Orig : 
+
+![picture](fotos/halbuiten2_yolo_out_py.jpg)
+
+Detected Photo : 
+
+![picture](fotos/halbuiten2-det-cut.jpg)
+
+
+
+
