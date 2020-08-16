@@ -114,3 +114,11 @@ When I take HQ pictures from the ethernet doesn't mean it has a 100% rate. From 
 
 
 After some testing of the number plate detector the biggest reason why he couldn't detecte the number plate is because it's from a difficult angle to recognize it and when I first use Car detector it's more difficult for the number plate detector to detect it. So know we now that our Number plate detector is our weakest point because the car detector does almost work everytime.
+
+Here are some other examples where you can see that the number plate is good readable and easy to predict : 
+
+
+![picture](fotos/Opel-detect.jpg)
+
+![picture](fotos/Jaguar-detect.jpg)
+
