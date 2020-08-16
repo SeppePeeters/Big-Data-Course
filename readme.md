@@ -105,5 +105,9 @@ Detected Photo :
 ![picture](fotos/halbuiten2-det-cut.jpg)
 
 
+As you can see on the pictures they look trimmed down in quality. When it are clear pictures like the one that I have used before it isn't a problem but when it's already from a distance with only a 5mp camera it's not usable. 
+
+When I take HQ pictures from the ethernet doesn't mean it has a 100% rate. From the 3 pictures that I took only this one worked : 
 
 
+![picture](fotos/car25-det_yolo_out_py.jpg)
