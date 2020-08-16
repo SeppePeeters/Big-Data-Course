@@ -39,9 +39,14 @@ Now I picked a tricky car. A car that is actually the same car as another one bu
 
 After the car classifier I wanted to try something else with cars. I found a pre trained model called YOLO (https://pjreddie.com/darknet/yolo/). With Yolo it would be possible to let the model check if there would be a number plate or not. At my home we installed a new camera system recently and because of security reasons I was thinking about using number plate recognition. But it wasn't possible with just a normal camera only with a ANPR camera but that comes with a heavy price tag (around €700). Now I wanted to try to make it myself and first I tried it on my own pictures to see what would happen. These are the results : 
 
-![Car](fotos/Opel.png)
-![Car](fotos/Opel2.png)
-![Car](fotos/Jaguar.png)
+Picture from the front, easy to see
+![Car](fotos/Opel.jpg)
+
+Picture bit more difficult from the side
+![Car](fotos/Opel2.jpg)
+
+Picture from a custom number plate
+![Car](fotos/Jaguar.jpg)
 
 
 
