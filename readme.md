@@ -10,9 +10,11 @@ https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder
 3. I tried to make a car classifier in Jupyter notebook with Keras. Tried multiple times with other Epochs and different Batch sizes but the conclusion was that Keras wasn't good in my situation because you can only get it to work with your GPU if you are a  Nvidia Developer. Training the model took between the 24 hours and the 36 hours : ![Epochs](fotos/Epoch.png)
 
 4. Here you can see the results of a small 25h hours of training. Not such good results with Keras.
+
 ![Result](fotos/ResultEpoch.png)
 
 Then I reversed it, Less epochs and bigger Batch sizes means better results. : 
+
 ![Result](fotos/Result2.png)
 
 5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. Now with the help of my GPU the epochs only take a couple of minutes instead of almost an hour.
@@ -127,7 +129,7 @@ Here are some other examples where you can see that the number plate is good rea
 
 Now I'm going to combine my 3 projects. First I'm gonna let the car classifier predict what kind of car it is : 
 
-![picture](fotos/beetle.jpg)
+![picture](fotos/ResultBeetle.png)
 
 He predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict if he has a number plate or not and where it is on the picture : 
 
