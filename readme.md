@@ -155,8 +155,15 @@ As you can see both were detected right. It was a good frontal picture of the ca
 # Statistics
 
 For statistics I've picked multiple subjects and the first subject that I'm gonna show you are graphs from a dataset that I found online that has all the info over cars.
-From MPG to MSRP etc.
+From MPG to MSRP etc : 
+https://www.kaggle.com/CooperUnion/cardataset
 
-In the first graphs I'm going to show you the top 5 rows from the dataset so you can see how the data can be interpreted : 
+In the first photo I'm going to show you the top 5 rows from the dataset so you can see how the data can be interpreted : 
 
 ![picture](stat/Top5.png)
+
+The data has 12000 records that's big enough to have a nice average.
+
+First I'm going to show you the years. As you can see on the graph most of the records that are in this dataset are from 2015 until 2017 because the dataset doesn't have the last recent models. The reason why it has a peak in the last years is because this dataset does have more records from 2010-2015 against 1990-1995.
+
+![picture](stat/Year.png)
