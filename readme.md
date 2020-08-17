@@ -156,6 +156,8 @@ As you can see both were detected right. It was a good frontal picture of the ca
 
 For statistics I've picked multiple subjects and the first subject that I'm gonna show you are graphs from a dataset that I found online that has all the info over cars.
 From MPG to MSRP etc : 
+
+1. Car MSRP through the years
 https://www.kaggle.com/CooperUnion/cardataset
 
 In the first photo I'm going to show you the top 5 rows from the dataset so you can see how the data can be interpreted : 
@@ -202,3 +204,60 @@ I's from on what fuel type does the car drive and what kind of transmission does
 The reason why a rear driven car is more expensive is because of the technology and that a rear driven car is most of the time a sports car the reason why they are more expensive then a front wheel driven car. The last 5 years it has become a sport to make your luxury sports sedan an all wheel driven car or a four wheel driven car. It's the same.
 
 ![picture](stat/Categorical.png)
+
+
+2. Car MPG (Miles per gallon)
+
+I found this dataset on kaggle, because all my subjects are with cars I would like to go through with that subject.
+This dataset is about the emissions and the MPG of all the modern cars and what can affect your MPG.
+
+First I'm going to show you how the data looks like : 
+
+![picture](stat/MPG/Top5.png)
+
+This dataset is full of records from people who measured their outside temp, inside temp, average speed etc. Everything that can effect your MPG.
+The weather outside is also a big influence of your MPG. If the sun shines or what kind of gas is in your car.
+
+This is ofcourse the greatest factor of your MPG. The speed of your car. Also your car is very important but you can't change your car just for only the MPG (theoratically now). This is to show how you can be more efficient with your MPG. On this graph you can see how slower the car goes the more L per 100km. Why is there such a big difference and now cohesion with the speed? It all changes with the gears and the traffic and maybe even the outside condition.
+
+![picture](stat/MPG/Speed.png)
+
+This graph shows that's is also very importand on what kind of distance you rode. When a diesel engine is not even fully warm or your driving not far enough your consumption is going to horrible compared to a ride with a petrol or a couple kilometers further. It absolutely depends on how the driver rode.
+
+![picture](stat/MPG/ConsumeKM.png)
+
+This graphs shows what the consumption is with the temperatures.
+
+![picture](stat/MPG/TempConsum.png)
+
+On this graph I show if there is any difference when you use the heating of your car or not. As you can see when the heating is on your consumption is going up. 
+There are 2 reasons : Heating costs power of your car 
+                      Heating means the conditions on the outside aren't ideal for your car as the same on the road, that's why.
+
+![picture](stat/MPG/Heating.png)
+
+This graph shows the consumption when your driving with or without the airconditioning on. 
+Most of the people say when your AC is on in your car he uses more gas. That's true but now your asking why says the graph something different?
+Because when you use your AC it's probably 25+ degrees Celsius. That means the ideal driving condition for your car. No rain, less traffic and better weather.
+So that bit extra your AC consumes isn't compared to the consumption of bad driving conditions.
+
+![picture](stat/MPG/Airconditiong.png)
+
+This graph reflects your consummation of your car when your driving and it starts raining compared to when it's not raining.
+The graph shows that your consummation is a lot higher when it's raining compared to when it's not.
+There are a couple reasons for : When it starts raining people are more hesitating in traffic and that means more traffic and higher consumption.
+                                 Rain means more resistance for your car. More resistance means higher consumption.
+                                 When it rains it's more likely you are putting the heater on and the heater means higher consumption
+
+![picture](stat/MPG/Rain.png)
+
+On this graph we can see the difference between no sun and when the sun shines. You can see it's a big difference for just a small factor you would think.
+There a couple reasons why it's such a difference : When the sun shines it isn't raining and traffic goes smoother compared to rain.
+                                                    When the sun shines you don't use much electronics of your car so less usage of the power of your car.
+                                                    When the sun shines it are perfect driving conditions for your car.
+
+![picture](stat/MPG/Sun.png)
+
+This correlation plot shows what has the biggest cohesion with eachother. As you can see as first Distance and speed are combining red. So
+
+![picture](stat/MPG/Heatmap.png)
