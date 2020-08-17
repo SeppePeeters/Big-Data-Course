@@ -164,6 +164,23 @@ In the first photo I'm going to show you the top 5 rows from the dataset so you 
 
 The data has 12000 records that's big enough to have a nice average.
 
-First I'm going to show you the years. As you can see on the graph most of the records that are in this dataset are from 2015 until 2017 because the dataset doesn't have the last recent models. The reason why it has a peak in the last years is because this dataset does have more records from 2010-2015 against 1990-1995.
+First I'm going to show you the years. As you can see on the graph most of the records that are in this dataset are from 2015 until 2017 because the dataset doesn't have the last recent models. The reason why it has a peak in the last years is because this dataset does have more records from 2010-2017 against 1990-1995.
 
 ![picture](stat/Year.png)
+
+On this graph I show you what kind of power the cars have. You can see that the most range of the cars are in the 100 HP ) 300 HP range. In Belgium it would have a very different result. In Belgium most of the cars have around the 100-180hp. It's rare to even have more than that, most of the cars that are selling right now in Belgium doesn't even have the 100hp because of all the emision rules and the taxes everybody wants to drive a small engine to evade taxes. 
+
+![picture](stat/HP.png)
+
+I made this graph because I was curious about how the difference in HP would be with the older cars vs the newer cars. As you can see it's a trend to go more and more HP. The higher the better. The standard of today is higher than the standard of 1992. 
+
+![picture](stat/HPyear.png)
+
+Now we have the cylinders. Something technical about an engine. Engines have multiple cylinders. You can see it as workers in a business. The more cylinders the bigger the engine. As you can see almost everything is defined into 4,6, 8 and sporadically a 10 and maybe a 12. The dataset is American market because in Europe there would be a huge difference. In 2012 Europe began with their climate rules. Car makers have to follow the rules, engines need to be smaller, low emissions. Hybrid and electric. Change to less cylinders so less emissions... If the graph would be in Belgium there would be almost no 8,10 or 12. Here even 6 is rare. 3 and 4 are most common nowadays.
+
+![picture](stat/Cyl.png)
+
+Here you can see the cylinders per year. As you can see there are already a couple 3 cylinders in the dataset. As you can see they even began making even bigger engines like the W16 who is in the Bugattiv Veyron. He produces around the 1000hp. The results are almost the same in the early 90's then in the 2010's.
+
+![picture](stat/CylYear.png)
+
