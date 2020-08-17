@@ -131,11 +131,11 @@ Now I'm going to combine my 3 projects. First I'm gonna let the car classifier p
 
 ![picture](fotos/ResultBeetle.png)
 
-He predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict if he has a number plate or not and where it is on the picture : 
+It predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict if he has a number plate or not and where it is located on the picture : 
 
 ![picture](fotos/beetle_yolo_out_py.jpg)
 
-He predicted it right, he has a number plate. After the prediction of the number plate now we are gonna check object itself. Maybe there are even other objects in the picture like we have seen before on the other pictures that I used : 
+His prediction is right, he has a number plate. After the prediction of the number plate now we are gonna check object itself. Maybe there are even other objects in the picture like we have seen before on the other pictures that I used : 
 
 ![picture](fotos/beetle_yolo_out_py-det.jpg)
 
@@ -154,7 +154,7 @@ As you can see both were detected right. It was a good frontal picture of the ca
 
 # Statistics
 
-For statistics I've picked multiple subjects and the first subject that I'm gonna show you are graphs from a dataset that I found online that has all the info over cars.
+For statistics I've picked multiple subjects and the first subject that I'm going to show you are graphs from a dataset that I found online that has all the info over cars.
 From MPG to MSRP etc : 
 
 1. Car MSRP through the years
@@ -170,7 +170,7 @@ First I'm going to show you the years. As you can see on the graph most of the r
 
 ![picture](stat/Year.png)
 
-On this graph I show you what kind of power the cars have. You can see that the most range of the cars are in the 100 HP ) 300 HP range. In Belgium it would have a very different result. In Belgium most of the cars have around the 100-180hp. It's rare to even have more than that, most of the cars that are selling right now in Belgium doesn't even have the 100hp because of all the emision rules and the taxes everybody wants to drive a small engine to evade taxes. 
+On this graph I show you what kind of power the cars have. You can see that the most range of the cars are in the 100 HP ) 300 HP range. In Belgium it would have a very different result. In Belgium most of the cars have around the 100-180hp. It's rare to even have more than that, most of the cars that are selling right now in Belgium doesn't even have the 100hp because of all the emission rules and the taxes everybody wants to drive a small engine to evade taxes. 
 
 ![picture](stat/HP.png)
 
@@ -188,20 +188,20 @@ Here you can see the cylinders per year. As you can see there are already a coup
 
 I also plotted the distribution of what kind of cars are in the dataset because there was no class for what kind of vehicle I choose the door option. Normally in Belgium we say we have a 5 door or a 4 door but that's depending on how the trunk is with the seats.
 
-If a car has 2 doors it's probably a coupe
-If a car has 4 doors it's probably a SUV or a sedan
+If a car has 2 doors it's probably a coupe,
+whereas if a car has 4 doors it's probably a SUV or a sedan
 
 ![picture](stat/Door.png)
 
-On this graph you can see the prices compared to the early 1990's until 2017. How horsepower influences the price compared to the cars with lower horsepower. 
-How more cylinders influences the car price. That because of inflation the car price gets higher and higher on average compared to a couple years earlier.
+On this graph you can see the prices compared to the early 1990's until 2017. You can see how horsepower influences the price compared to the cars with lower horsepower. 
+You can see how more cylinders influences the price of the car. That because of inflation the car price gets higher and higher on average compared to a couple years earlier.
 How lesser the MPG from the cars how more expensive they are. That's cohesion with the more cylinders and more horsepower. How higher the horsepower/cylinders the less MPG you will get on the highway and the city. Doors and MSRP isn't really relevant because you can have an expensive 4 door sedan and a very cheap one. Same with a cheap VW Polo and an expensive Lamborghini Gallardo.
 
 ![picture](stat/Continous.png)
 
 On these graphs it's more about the small details that aren't really defined to make a car cheaper or maybe even more expensive. 
 I's from on what fuel type does the car drive and what kind of transmission does the car have but that's already self explanatory I guess.
-The reason why a rear driven car is more expensive is because of the technology and that a rear driven car is most of the time a sports car the reason why they are more expensive then a front wheel driven car. The last 5 years it has become a sport to make your luxury sports sedan an all wheel driven car or a four wheel driven car. It's the same.
+The reason why a rear driven car is more expensive is because of the technology and that a rear driven car is most of the time a sports car the reason why they are more expensive than a front wheel driven car. The last 5 years it has become a sport to make your luxury sports sedan an all wheel driven car or a four wheel driven car. It's the same.
 
 ![picture](stat/Categorical.png)
 
@@ -215,18 +215,18 @@ First I'm going to show you how the data looks like :
 
 ![picture](stat/MPG/Top5.png)
 
-This dataset is full of records from people who measured their outside temp, inside temp, average speed etc. Everything that can effect your MPG.
-The weather outside is also a big influence of your MPG. If the sun shines or what kind of gas is in your car.
+This dataset is full of records from people who measured their outside temp, inside temp, average speed etc. Everything that can affect your MPG.
+The weather outside is also a big influence of your MPG. If the sun shines or what kind of gas your car runs on.
 
-This is ofcourse the greatest factor of your MPG. The speed of your car. Also your car is very important but you can't change your car just for only the MPG (theoratically now). This is to show how you can be more efficient with your MPG. On this graph you can see how slower the car goes the more L per 100km. Why is there such a big difference and now cohesion with the speed? It all changes with the gears and the traffic and maybe even the outside condition.
+This is the greatest factor of your MPG. The speed of your car. Also your car is very important but you can't change your car just for only the MPG (theoretically now). This is to show how you can be more efficient with your MPG. On this graph you can see how slower the car goes the more L per 100km. Why is there such a big difference and now cohesion with the speed? It all changes with the gears and the traffic and maybe even the outside condition.
 
 ![picture](stat/MPG/Speed.png)
 
-This graph shows that's is also very importand on what kind of distance you rode. When a diesel engine is not even fully warm or your driving not far enough your consumption is going to horrible compared to a ride with a petrol or a couple kilometers further. It absolutely depends on how the driver rode.
+This graph shows that's is also very important on what kind of distance you rode. When a diesel engine is not even fully warm or your driving not far enough your consumption is going to horrible compared to a ride with a petrol or a couple kilometers further. It absolutely depends on how the driver rode.
 
 ![picture](stat/MPG/ConsumeKM.png)
 
-This graphs shows what the consumption is with the temperatures.
+This graph shows what the consumption is with the temperatures.
 
 ![picture](stat/MPG/TempConsum.png)
 
@@ -236,14 +236,14 @@ There are 2 reasons : Heating costs power of your car
 
 ![picture](stat/MPG/Heating.png)
 
-This graph shows the consumption when your driving with or without the airconditioning on. 
-Most of the people say when your AC is on in your car he uses more gas. That's true but now your asking why says the graph something different?
+This graph shows the consumption when you are driving with or without the airconditioning on. 
+Most of the people say when your AC is on in your car he uses more gas. That's true but now you are asking why says the graph something different?
 Because when you use your AC it's probably 25+ degrees Celsius. That means the ideal driving condition for your car. No rain, less traffic and better weather.
 So that bit extra your AC consumes isn't compared to the consumption of bad driving conditions.
 
 ![picture](stat/MPG/Airconditiong.png)
 
-This graph reflects your consummation of your car when your driving and it starts raining compared to when it's not raining.
+This graph reflects your consummation of your car when you are driving and it starts raining compared to when it's not raining.
 The graph shows that your consummation is a lot higher when it's raining compared to when it's not.
 There are a couple reasons for : When it starts raining people are more hesitating in traffic and that means more traffic and higher consumption.
                                  Rain means more resistance for your car. More resistance means higher consumption.
@@ -258,6 +258,6 @@ There a couple reasons why it's such a difference : When the sun shines it isn't
 
 ![picture](stat/MPG/Sun.png)
 
-This correlation plot shows what has the biggest cohesion with eachother. 
+This correlation plot shows what has the biggest cohesion with each other. 
 
 ![picture](stat/MPG/Heatmap.png)
