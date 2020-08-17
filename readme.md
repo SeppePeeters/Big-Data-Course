@@ -279,3 +279,13 @@ Second one is about the cohesion between weight and height.
 
 Where to find : 
 stat\reg+ distDistribution , Regression plots.ipynb
+
+![picture](stat/CarAccidents/Height.png)
+![picture](stat/CarAccidents/Weight.png)
+![picture](stat/CarAccidents/HeightSex.png)
+![picture](stat/CarAccidents/WeightSex.png)
+![picture](stat/CarAccidents/HeightSpread.png)
+![picture](stat/CarAccidents/WeightSpread.png)
+![picture](stat/CarAccidents/CurveHeight.png)
+![picture](stat/CarAccidents/CurveWeight.png)
+![picture](stat/CarAccidents/RelHeightWeight.png)
