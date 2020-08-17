@@ -138,3 +138,15 @@ He predicted it right, a Volkswagen Beetle from 2012. Now we are gonna predict i
 He predicted it right, he has a number plate. After the prediction of the number plate now we are gonna check object itself. Maybe there are even other objects in the picture like we have seen before on the other pictures that I used : 
 
 ![picture](fotos/beetle_yolo_out_py-det.jpg)
+
+This is another example. First I ran the image through the car classifier as you can see he predicted it right : It's a Mercedes SL Series 
+
+![picture](fotos/SL.png)
+
+After I ran it through the classifier I wanted to try the car detector first because the image was from good quality so it would be possible to first through the image detector instead of the number plate : 
+
+![picture](fotos/SL-det.jpg)
+
+![picture](fotos/SL-det_yolo_out_py.jpg)
+
+As you can see both were detected right. It was a good frontal picture of the car, the image loss the detection gave wasn't a problem at all.
