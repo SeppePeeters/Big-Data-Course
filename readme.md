@@ -184,3 +184,21 @@ Here you can see the cylinders per year. As you can see there are already a coup
 
 ![picture](stat/CylYear.png)
 
+I also plotted the distribution of what kind of cars are in the dataset because there was no class for what kind of vehicle I choose the door option. Normally in Belgium we say we have a 5 door or a 4 door but that's depending on how the trunk is with the seats.
+
+If a car has 2 doors it's probably a coupe
+If a car has 4 doors it's probably a SUV or a sedan
+
+![picture](stat/Door.png)
+
+On this graph you can see the prices compared to the early 1990's until 2017. How horsepower influences the price compared to the cars with lower horsepower. 
+How more cylinders influences the car price. That because of inflation the car price gets higher and higher on average compared to a couple years earlier.
+How lesser the MPG from the cars how more expensive they are. That's cohesion with the more cylinders and more horsepower. How higher the horsepower/cylinders the less MPG you will get on the highway and the city. Doors and MSRP isn't really relevant because you can have an expensive 4 door sedan and a very cheap one. Same with a cheap VW Polo and an expensive Lamborghini Gallardo.
+
+![picture](stat/Continous.png)
+
+On these graphs it's more about the small details that aren't really defined to make a car cheaper or maybe even more expensive. 
+I's from on what fuel type does the car drive and what kind of transmission does the car have but that's already self explanatory I guess.
+The reason why a rear driven car is more expensive is because of the technology and that a rear driven car is most of the time a sports car the reason why they are more expensive then a front wheel driven car. The last 5 years it has become a sport to make your luxury sports sedan an all wheel driven car or a four wheel driven car. It's the same.
+
+![picture](stat/Categorical.png)
