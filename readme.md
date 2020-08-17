@@ -267,12 +267,12 @@ I got some more statistics in the documents. You can find it :
 The first one is about car accidents and about the age from the drivers etc.
 stat\CarAccidents/uk-traffic-accidents.ipynb
 
-![picture](stat/reg+ dist/Age.png)
-![picture](stat/reg+ dist/Days.png)
-![picture](stat/reg+ dist/Time.png)
-![picture](stat/reg+ dist/speed.png)
-![picture](stat/reg+ dist/agedriver.png)
-![picture](stat/reg+ dist/agevehicle.png)
+![picture](stat/reg+dist/Age.png)
+![picture](stat/reg+dist/Days.png)
+![picture](stat/reg+dist/Time.png)
+![picture](stat/reg+dist/speed.png)
+![picture](stat/reg+dist/agedriver.png)
+![picture](stat/reg+dist/agevehicle.png)
 
 Second one is about the cohesion between weight and height.
 
