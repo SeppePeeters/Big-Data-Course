@@ -261,3 +261,19 @@ There a couple reasons why it's such a difference : When the sun shines it isn't
 This correlation plot shows what has the biggest cohesion with each other. 
 
 ![picture](stat/MPG/Heatmap.png)
+
+I got some more statistics in the documents. You can find it : 
+
+The first one is about car accidents and about the age from the drivers etc.
+stat\CarAccidents/uk-traffic-accidents.ipynb
+
+![picture](stat/reg+ dist/Age.png)
+![picture](stat/reg+ dist/Days.png)
+![picture](stat/reg+ dist/Time.png)
+![picture](stat/reg+ dist/speed.png)
+![picture](stat/reg+ dist/agedriver.png)
+![picture](stat/reg+ dist/agevehicle.png)
+
+Second one is about the cohesion between weight and height.
+
+stat\reg+ distDistribution , Regression plots.ipynb
