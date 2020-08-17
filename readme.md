@@ -150,3 +150,13 @@ After I ran it through the classifier I wanted to try the car detector first bec
 ![picture](fotos/SL-det_yolo_out_py.jpg)
 
 As you can see both were detected right. It was a good frontal picture of the car, the image loss the detection gave wasn't a problem at all.
+
+
+# Statistics
+
+For statistics I've picked multiple subjects and the first subject that I'm gonna show you are graphs from a dataset that I found online that has all the info over cars.
+From MPG to MSRP etc.
+
+In the first graphs I'm going to show you the top 5 rows from the dataset so you can see how the data can be interpreted : 
+
+![picture](stat/Top5.png)
