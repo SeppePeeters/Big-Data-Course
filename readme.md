@@ -258,6 +258,6 @@ There a couple reasons why it's such a difference : When the sun shines it isn't
 
 ![picture](stat/MPG/Sun.png)
 
-This correlation plot shows what has the biggest cohesion with eachother. As you can see as first Distance and speed are combining red. So
+This correlation plot shows what has the biggest cohesion with eachother. 
 
 ![picture](stat/MPG/Heatmap.png)
