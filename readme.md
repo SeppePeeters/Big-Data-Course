@@ -265,6 +265,7 @@ This correlation plot shows what has the biggest cohesion with each other.
 I got some more statistics in the documents. You can find it : 
 
 The first one is about car accidents and about the age from the drivers etc.
+Where to find : 
 stat\CarAccidents/uk-traffic-accidents.ipynb
 
 ![picture](stat/reg+dist/Age.png)
@@ -276,4 +277,5 @@ stat\CarAccidents/uk-traffic-accidents.ipynb
 
 Second one is about the cohesion between weight and height.
 
+Where to find : 
 stat\reg+ distDistribution , Regression plots.ipynb
