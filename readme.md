@@ -1,13 +1,13 @@
 # Project Car classifier
 
-1. Started to find a dataset, first I tried to find a dataset by myself. Tried to find all the pics by myself. As a Used car dealer I thought I had enough pictures just by my own library
-but that wasn't enough. After some searching and downloading pictures itself I found this dataset on the ethernet : ![Stanford dataset](fotos/Stanford.png)
+1. First I tried to find a dataset by myself. Tried to find all the pics by myself. As a Used car dealer I thought I had enough pictures from my own experience
+but that wasn't the case. After searching for some pictures I found this dataset on the ethernet : ![Stanford dataset](fotos/Stanford.png)
 https://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
-2. It were all random pictures so I kept searching on a dataset where someone already mapped the photo's. I found one on Kaggle.com : ![Kaggle](fotos/Kaggle.png)
+2. It were all random pictures so I kept searching on a dataset where someone had already classified the pictures. I found one on Kaggle.com : ![Kaggle](fotos/Kaggle.png)
 https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder
 
-3. I tried to make a car classifier in Jupyter notebook with Keras. Tried multiple times with other Epochs and different Batch sizes but the conclusion was that Keras wasn't good in my situation because you can only get it to work with your GPU if you are a  Nvidia Developer. Training the model took between the 24 hours and the 36 hours : ![Epochs](fotos/Epoch.png)
+3. I tried to make a car classifier in Jupyter notebook with Keras.I tried multiple times with other Epochs and different Batch sizes but the conclusion was that Keras wasn't good in my situation because you can only get it to work with your GPU if you are a  Nvidia Developer. Training the model took between  24  and  36 hours : ![Epochs](fotos/Epoch.png)
 
 4. Here you can see the results of a small 25h hours of training. Not such good results with Keras.
 
@@ -17,7 +17,7 @@ Then I reversed it, Less epochs and bigger Batch sizes means better results. :
 
 ![Result](fotos/Result2.png)
 
-5. Still not the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. Now with the help of my GPU the epochs only take a couple of minutes instead of almost an hour.
+5. I still did not get the results I hoped for and tried another model. Instead with Keras I went with PyTorch. PyTorch was able to work with my gpu which was heaven on earth compared to keras who always took multiple hours of my CPU running 100%. It's now with a pre trained model called Resnet34. It works with PyTorch. Now with the help of my GPU the epochs only take a couple of minutes instead of almost an hour.
 These are the results : 
 
 These are the graphs and statistics of the results from the model : 
